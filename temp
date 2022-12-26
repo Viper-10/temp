@@ -23,3 +23,20 @@ ssh -l pem_location username@host_name
 sudo amazon-linux-extras install nginx1
 
 sudo service nginx start
+
+
+lsblk
+
+sudo file -s/dev/xvdf
+
+mkfs -t ext4 /dev/xvdf
+
+sudo mkdir /volumes
+
+sudo mount /dev/xvdf/volumes/
+
+cd /volumes
+
+df -h
+
+unmount /dev/xvdf
