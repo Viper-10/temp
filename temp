@@ -14,6 +14,12 @@
 }
 
 
+mysql -h hostname -u username -p password
+
+ssh -l pem_location username@host_name
+
+
+
 sudo amazon-linux-extras install nginx1
 
 sudo service nginx start
